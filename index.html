@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .item-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    margin: 20px 0;
+  }
+
+  .item-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .item-box h3 {
+    margin: 10px 0;
+  }
+
+  .item-box p {
+    margin: 5px 0;
+  }
+
+  .item-box input {
+    width: 50px;
+    text-align: center;
+  }
+  #btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #btn:hover {
+    background-color: #218838;
+  }
+  </style>
+</head>
+<body>
+    
+ <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="item-container">
+  <div class="item-box">
+    <h3>Item 1</h3>
+    <img src="images/shirt.jpg" alt="causual shirt" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>Price: $10</p>
+    <label for="quantity1">Quantity:</label>
+    <input type="number" id="quantity1" min="1" value="1">
+    <label id="total1">Total Price:$10</label>
+    <button id="btn">Purchase</button>
+  </div>
+  <div class="item-box">
+    <h3>Item 2</h3>
+    <img src="images/crop.jpg" alt="girl shirt" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>Price: $15</p>
+    <label for="quantity2">Quantity:</label>
+    <input type="number" id="quantity2" min="1" value="1">
+    <label id="total2">Total Price:$15</label>
+    <button id="btn">Purchase</button>
+  </div>
+  <div class="item-box">
+    <h3>Item 3</h3>
+    <img src="images/cranes.jpg" alt="ug jersey" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>Price: $20</p>
+    <label for="quantity3">Quantity:</label>
+    <input type="number" id="quantity3" min="1" value="1">
+    <label id="total3">Total Price:$20</label>
+    <button id="btn">Purchase</button>
+  </div>
+    <div class="item-box">
+    <h3>Item 4</h3>
+    <img src="images/black.jpg" alt="ug jersey" style="width: 100%; height: auto; border-radius: 5px;">
+    <p>Price: $200</p>
+    <label for="quantity4">Quantity:</label>
+    <input type="number" id="quantity4" min="1" value="1">
+    <label id="total4">Total Price:$200</label>
+    <button id="btn">Purchase</button>
+  </div>
+</div>
+
+
+</div>
+         
+</body>
+</html>
