@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+    font-family: helvetica;
+}
+#mybtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.mylabel{
+    font-size: 3em;
+}
+
+#myLabel{
+    text-align: center;
+    font-size: 6em;
+
+}
+
+.btns{
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    padding: 5px 20px;
+    
+}
+
+.btns:hover{
+    color: aqua;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Ensure the nav items wrap on smaller screens */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-box:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.about-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.about-box h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.about-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+
+  .about-box {
+    width: 90%; /* Take up most of the screen width */
+    margin: 10px 0; /* Add vertical spacing between boxes */
+  }
+}
